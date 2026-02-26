@@ -140737,8 +140737,8 @@ k=A.a0("Enter your username",l,"enterUsername",A.b([],k),l)
 s=A.aB(B.a2_,B.x,l,a*0.04)
 r=A.E(l,l,l,l,l,l,l,l,l,l,l,r,l,l,l,l,l,!0,l,l,l,l,l,l,l,l)
 o=a*0.023
-n=B.d.es(a*0.02,10,20)
-return A.ae(A.b([q,p,A.bqd(B.c9,!0,k,!1,m.a.d,l,new A.G(o,n,o,n),s,new A.ai(0,1/0,0,a*0.05),l,l,r,new A.b0e(m))],t.p),B.y,B.h,B.f,0,B.n)},
+n=B.d.es(a*0.035,10,24)
+return A.ae(A.b([q,p,A.bqd(B.c9,!0,k,!1,m.a.d,l,new A.G(o,n,o,n),s,new A.ai(0,1/0,0,a*0.09),l,l,r,new A.b0e(m))],t.p),B.y,B.h,B.f,0,B.n)},
 au_(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.c
 i.toString
 s=t.Y
@@ -140755,8 +140755,8 @@ s=a*0.04
 o=A.aB(B.a1U,B.x,j,s)
 r=A.E(j,j,j,j,j,j,j,j,j,j,j,r,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)
 n=a*0.023
-m=B.d.es(a*0.02,10,20)
-l=a*0.05
+m=B.d.es(a*0.035,10,24)
+l=a*0.09
 return A.ae(A.b([q,p,A.bqd(B.c9,!0,i,!0,k.a.e,new A.b0b(k),new A.G(n,m,n,m),o,new A.ai(0,1/0,0,l),new A.ai(0,1/0,0,l),s,r,new A.b0c(k))],t.p),B.y,B.h,B.f,0,B.n)},
 aub(a){var s,r,q=null,p=a*0.065
 p=A.p(new A.a0s(B.kA,A.bge(B.x,!1,q,q,q,!1,B.r8,q,new A.b0d(this),q,q,q,q,q,!1,this.a.r),q),p,p)
