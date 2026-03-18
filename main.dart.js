@@ -40098,7 +40098,7 @@ aHJ:function aHJ(a){this.a=a},
 aHK:function aHK(a){this.a=a},
 aHL:function aHL(a){this.a=a},
 bFe(a){var s
-if(a==null)return A.Z(["suitability",15,"cultural_fit",15,"communication",15],t.N,t.z)
+if(a==null)return A.Z(["suitability",20,"cultural_fit",20,"communication",20],t.N,t.z)
 s=A.D(t.N,t.z)
 J.hO(a,new A.aLo(s))
 return s},
@@ -146234,7 +146234,7 @@ ajM(a,b,a0){var s=0,r=A.A(t.Uu),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c
 var $async$G1=A.w(function(a1,a2){if(a1===1){o.push(a2)
 s=p}while(true)switch(s){case 0:p=4
 h=n.a
-h.cO("Starting discrete SJT scoring (1, 15, 30 only)...")
+h.cO("Starting discrete SJT scoring (1, 20, 40 only)...")
 g=A.dU("https://salestrainee2026-pvm-vtest-ai-grade.vercel.app/api/score-sjt")
 f=t.N
 e=A.Z(["Content-Type","application/json"],f,f)
@@ -146248,10 +146248,10 @@ if(m.b===200){g=m
 l=B.W.fW(0,A.aoJ(A.aom(g.e)).eP(0,g.w),null)
 g=l
 f=J.au(g)
-k=new A.p2(Math.max(1,Math.min(30,B.d.cB(A.cE(f.h(g,"score"))))),A.cE(f.h(g,"points")),A.bFe(f.h(g,"breakdown")),A.bFf(f.h(g,"reasons")))
+k=new A.p2(Math.max(1,Math.min(40,B.d.cB(A.cE(f.h(g,"score"))))),A.cE(f.h(g,"points")),A.bFe(f.h(g,"breakdown")),A.bFf(f.h(g,"reasons")))
 h.cO("Parsed discrete score: "+k.a+" ("+A.m(k.b)+" points)")
 h.cO("Breakdown: "+k.c.k(0))
-if(!B.b.p(A.b([1,15,30],t.t),k.a))h.qR(0,"Warning: Non-discrete score received: "+k.a)
+if(!B.b.p(A.b([1,20,40],t.t),k.a))h.qR(0,"Warning: Non-discrete score received: "+k.a)
 q=k
 s=1
 break}else{h.eg(0,"API error: "+m.b)
@@ -146291,8 +146291,8 @@ l=A.b([],t.zf)
 for(o=J.au(m),k=t.N,j=t.z,i=0;i<o.gC(m);){h=o.h(m,i);++i
 g=""+i
 if(h!=null){e.jq(B.eY,"Question "+g+": Received valid score of "+A.m(h.b)+" points",null,null,null)
-l.push(h)}else{e.jq(B.qw,"Question "+g+": API failed, using fallback score of 15 points",null,null,null)
-l.push(new A.p2(15,15,A.Z(["suitability",15,"cultural_fit",15,"communication",15],k,j),A.Z(["suitability","API kh\xf4ng kh\u1ea3 d\u1ee5ng - \u0111i\u1ec3m m\u1eb7c \u0111\u1ecbnh","cultural_fit","API kh\xf4ng kh\u1ea3 d\u1ee5ng - \u0111i\u1ec3m m\u1eb7c \u0111\u1ecbnh","communication","API kh\xf4ng kh\u1ea3 d\u1ee5ng - \u0111i\u1ec3m m\u1eb7c \u0111\u1ecbnh"],k,k)))}}e.cO("Parallel batch scoring completed. Results summary:")
+l.push(h)}else{e.jq(B.qw,"Question "+g+": API failed, using fallback score of 20 points",null,null,null)
+l.push(new A.p2(20,20,A.Z(["suitability",20,"cultural_fit",20,"communication",20],k,j),A.Z(["suitability","API kh\xf4ng kh\u1ea3 d\u1ee5ng - \u0111i\u1ec3m m\u1eb7c \u0111\u1ecbnh","cultural_fit","API kh\xf4ng kh\u1ea3 d\u1ee5ng - \u0111i\u1ec3m m\u1eb7c \u0111\u1ecbnh","communication","API kh\xf4ng kh\u1ea3 d\u1ee5ng - \u0111i\u1ec3m m\u1eb7c \u0111\u1ecbnh"],k,k)))}}e.cO("Parallel batch scoring completed. Results summary:")
 for(i=0;i<l.length;i=f){f=i+1
 e.jq(B.eY,"Question "+f+": "+A.m(l[i].b)+" points",null,null,null)}q=l
 s=1
@@ -146304,7 +146304,7 @@ $1(a){return this.a.G1(a.a,a.c,a.b)},
 $S:841}
 A.p2.prototype={}
 A.aLo.prototype={
-$2(a,b){this.a.q(0,a,Math.max(1,Math.min(30,B.d.cB(A.cE(b)))))},
+$2(a,b){this.a.q(0,a,Math.max(1,Math.min(40,B.d.cB(A.cE(b)))))},
 $S:35}
 A.aLp.prototype={
 $2(a,b){var s=b==null?null:J.cq(b)
